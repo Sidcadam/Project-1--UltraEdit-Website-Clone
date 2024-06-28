@@ -11,3 +11,4 @@ Languages used:
   </li>
 </ul>
 Author: SIDDHESH KADAM
+theme: jekyll-theme-minimal
