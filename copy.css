@@ -1,0 +1,157 @@
+* {
+  font-family: "Segoe UI";
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+  gap: 500px;
+}
+#items {
+  margin-right: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#litem {
+  margin-right: 150px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+main {
+  text-align: center;
+  margin: 50px 300px 0px 300px;
+}
+.content1 {
+  display: inline-block;
+  font-size: 50px;
+}
+.content2 {
+  font-size: 23px;
+  padding-top: 50px;
+}
+.box1 a {
+  text-decoration: none;
+  background-color: #00b6d1;
+  padding: 15px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+}
+.box1 a:hover {
+  background-color: #007e92;
+}
+.box1 {
+  margin-top: 50px;
+}
+.box2 {
+  margin-top: 100px;
+  display: flex;
+}
+.box2 p {
+  padding-top: 10px;
+  align-self: baseline;
+}
+#big {
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
+}
+.items {
+  margin: 15px;
+  height: 140px;
+  width: 18vw;
+  background-color: rgba(238, 236, 236, 0.877);
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.engitem {
+  margin: 15px;
+  height: 140px;
+  width: 18vw;
+  background-color: rgba(238, 236, 236, 0.877);
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.items p {
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+.items button {
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.items span {
+  display: block;
+}
+.engitem button {
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+
+.engitem span {
+  display: block;
+}
+.boxitem1 {
+  background-color: #00b6d1;
+}
+.boxitem1:hover {
+  background-color: #007e92;
+}
+.boxitem2 {
+  background-color: rgb(76, 166, 76);
+}
+.boxitem2:hover {
+  background-color: rgba(76, 166, 76, 0.667);
+}
+
+@media screen and (max-width:1450px){
+  .container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .items{
+    height: 200px;
+    margin: 5px;
+  }
+  .engitem{
+    height: 200px;
+    margin: 5px;
+  }
+  .engitem button{
+    margin-top: 10px;
+  }
+  .engitem span{
+    padding-bottom: 60px;
+  }
+  .items span{
+    padding-bottom: 40px;
+  }
+  .items button{
+    margin-top: 10px;
+  }
+}
